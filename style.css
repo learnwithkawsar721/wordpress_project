@@ -1,0 +1,193 @@
+/*!
+Theme Name: IIST
+Theme URI: http://underscores.me/
+Author: Md Kawsar
+Author URI: http://kawsar721.com
+Description: In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: isst_project
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+IIST is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header Section Start */
+/* Header Top */
+.header-top {
+     background: #9E5BBA;
+     padding: 10px 10px;
+     border-bottom: .5px solid red;
+}
+
+.header-top .header-top-left p {
+    color: #fff;
+    margin: 0;
+}
+
+.header-top .header-top-right {
+    text-align: end;
+}
+
+.header-top .header-top-right p {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding-right: 7px;
+}
+
+.header-top .header-top-right a {
+    text-decoration: none;
+    color: #fff;
+    border-left: 1px solid #fff;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+/* Header Bottom */
+.header-bottom-left img {
+    padding: 40px 0;
+}
+
+.header-bottom-middle {
+    text-align: end;
+}
+
+.header-bottom-middle input[type=text] {
+    font-size: 14px;
+    padding: 4px 5px;
+    width: 70%;
+    margin-top: 70px;
+}
+
+.header-bottom-middle input[type=submit] {
+    font-size: 12px;
+    padding: 5px 5px;
+}
+
+.header-bottom-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-bottom-right .a2i-logo {
+    border-right: 2px solid gray;
+    padding-right: 10px;
+}
+
+.header-bottom-right .social-box {
+    padding-left: 10px;
+}
+
+.header-bottom-right .social-box p{
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Header Section Start */
+
+/* Navbar Section Start */
+.navbar .nav-item {
+    border-right: 1px solid gray;
+}
+/* Navbar Section End */
+
+
+/* Main Content Section Start */
+/* Main Content */
+/* Marquee */
+.marquee {
+    background-color: #B7B7B7;
+    margin: 7px 0;
+}
+
+.marquee marquee {
+    padding: 8px 0;
+}
+
+/* Sidebar Content */
+.sidebar-img-box,
+.sokol-batayon,
+.mujib-app {
+    margin-bottom: 10px;
+}
+
+.sidebar-img-box img {
+    padding: 4px 0;
+}
+
+.sokol-batayon .heading h3 {
+    color: #9E5BBA;
+    font-size: 18px;
+}
+
+.sokol-batayon .dropdown-option select {
+    width: 78%;
+}
+
+.sokol-batayon .dropdown-option input {
+    width: 20%;
+}
+
+.mujib-app .heading h3 {
+    color: #fff;
+    font-size: 16px;
+    background-color: #609513;
+    padding: 10px 5px;
+    margin: 0;
+}
+
+.mujib-app .content iframe {
+    width: 100%;
+}
+/* Main Content Section End */
+
+/* Footer Section Start */
+.footer .navbar .nav-item .nav-link {
+    font-size: 14px;
+    padding: 5px 20px;
+}
+
+.footer {
+    padding: 20px 0;
+    background-color: #EBEBEB;
+    border-bottom: 3px solid #9E5BBA;
+}
+
+.footer p {
+    font-size: 12px;
+    padding: 5px 0 0 20px;
+}
+
+.footer .footer-right-bottom p {
+    padding-right: 10px;
+}
+
+.footer .footer-right-bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
+    padding-right: 20px;
+    padding-top: 25px;
+
+}
+/* Footer Section End */
